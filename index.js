@@ -8,23 +8,6 @@ console.log(process.env);
 
 //CODE FOR QUESTION 1 HERE
 
-kitchen
-  .readMenu()
-  .then((food) => {
-    // console.log(food)
-    let s = food.split("\n");
-    s.splice(0, 3);
-    let price = s[0].split(":")[1];
-    console.log(s[0].split(":"));
-    s.forEach((element) => {
-      console.log(element);
-    });
-    // console.log(s.join());
-    // let j = s.join();
-    // let d = j.split(":");
-    // console.log(d);
-  })
-  .catch((e) => console.log(e));
 
 // Order Some Food
 /* *************************************************************** */
